@@ -1,0 +1,8 @@
+package SitemeshFilter;
+
+import javax.servlet.annotation.WebFilter;
+
+@WebFilter(filterName = "sitemesh",urlPatterns = "/*")
+public class SitemeshFilter extends Sitemes {
+
+}

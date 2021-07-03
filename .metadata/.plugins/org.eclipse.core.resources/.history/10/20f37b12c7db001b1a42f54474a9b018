@@ -1,0 +1,29 @@
+package UrlUtil;
+
+public class urlUtil {
+	public static final String URL_LOGIN = "/login";
+	public static final String URL_DASHBOARD = "/dashboard";
+	public static final String URL_ACCOUNT_EDIT = "/dashboard/account_edit";
+	public static final String URL_PROFILE ="/dashboard/profile";
+	public static final String URL_BUTTONS ="/dashboard/buttons";
+	public static final String URL_SIGNUP="/dashboard/signup";
+	public static final String URL_ALERTS="/dashboard/alerts";
+	public static final String URL_APP_TRELLO="/dashboard/apptrello";
+	public static final String URL_AVATAR="/dashboard/avatars";
+	public static final String URL_CHARTS="/dashboard/charts";
+	public static final String URL_DATETIME="/dashboard/datetime";
+	public static final String URL_DRAG="/dashboard/drag";
+	public static final String URL_FROMS="/dashboard/drag";
+	public static final String URL_FULL_CALENDAR="/dashboard/drag";
+	public static final String URL_ICONS="/dashboard/drag";
+	public static final String URL_LOADERS="/dashboard/drag";
+	public static final String URL_MODALS="/dashboard/drag";
+	public static final String URL_PAGINATION="/dashboard/drag";
+	public static final String URL_RANGE_SLIDERS="/dashboard/drag";
+	public static final String URL_TABLES="/dashboard/drag";
+	public static final String URL_TABS="/dashboard/drag";
+	public static final String URL_TEMPLATE="/dashboard/drag";
+	public static final String URL_VECTOR_MAP="/dashboard/drag";
+	
+
+}

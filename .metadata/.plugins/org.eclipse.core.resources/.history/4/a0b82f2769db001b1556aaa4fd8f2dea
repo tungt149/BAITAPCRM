@@ -1,0 +1,10 @@
+package UrlUtil;
+
+public class UrlUtil {
+public final static String URL_LOGIN= "/login";
+public final static String URL_DASHBOARD= "/login";
+public final static String URL_ACCOUNT_EDIT= "/login";
+
+
+
+}

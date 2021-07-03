@@ -1,0 +1,9 @@
+package DuAnCRM.Servlet;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet(name="home",urlPatterns = { "/home","/home/2"})
+public class HomeServlet extends HttpServlet{
+
+}

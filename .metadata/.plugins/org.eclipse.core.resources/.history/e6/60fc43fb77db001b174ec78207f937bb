@@ -1,0 +1,8 @@
+package UrlUtil;
+
+public class urlUtil {
+	public static final String URL_LOGIN = "/login";
+	public static final String URL_DASHBOARD = "/dashboard";
+	public static final String URL_ACCOUNT_EDIT = "/dashboard/account_edit";
+	public static final String URL_PROFILE ="/dashboard/profile";
+}

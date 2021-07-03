@@ -1,0 +1,39 @@
+package DuAnCRM.Servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import UrlUtil.pathUtil;
+import UrlUtil.urlUtil;
+
+@WebServlet(urlPatterns = {urlUtil.URL_DASHBOARD,urlUtil.URL_ACCOUNT_EDIT,urlUtil.URL_LOGIN })
+
+public class HomeServlet extends HttpServlet {
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		resp.setCharacterEncoding("UTF-8");
+		req.setCharacterEncoding("UTF-8");
+		//req.getRequestDispatcher("/decorators/components/login.jsp").forward(req, resp);
+		//req.getRequestDispatcher(pathUtil.PATH_DASHBOARD).forward(req, resp);
+		String path = req.getServletPath();
+		switch(path) {
+		case urlUtil.URL_DASHBOARD:
+			req.getRequestDispatcher(pathUtil.PATH_DASHBOARD).forward(req, resp);
+			
+			break;
+		case urlUtil.URL_ACCOUNT_EDIT:
+			req.getRequestDispatcher(pathUtil.PATH_ACCOUNT_EDIT).forward(req, resp);
+			
+			break;
+		
+		
+		
+		
+		}
+	}
+}

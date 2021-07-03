@@ -1,0 +1,11 @@
+package UrlUtil;
+
+public class UrlUtil {
+public final static String PATH_LOGIN= "/decorators/components/login.jsp\"";
+public final static String PATH_HOME= "/WEB-INF/views/home.jsp";
+//public final static String PATH_HOME= "/WEB-INF/views/home.jsp";
+//public final static String PATH_HOME= "/WEB-INF/views/home.jsp";
+//public final static String PATH_HOME= "/WEB-INF/views/home.jsp";
+//public final static String PATH_HOME= "/WEB-INF/views/home.jsp";
+//public final static String PATH_HOME= "/WEB-INF/views/home.jsp";
+}

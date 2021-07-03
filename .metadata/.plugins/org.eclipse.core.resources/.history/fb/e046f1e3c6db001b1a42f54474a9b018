@@ -1,0 +1,10 @@
+package UrlUtil;
+
+public class pathUtil {
+	public static final String PATH_LOGIN = "/WEB-INF/views/home/login.jsp";
+	public static final String PATH_DASHBOARD = "/WEB-INF/views/home/dashboard.jsp";
+	public static final String PATH_ACCOUNT_EDIT = "/WEB-INF/views/home/account-edit.jsp";
+	public static final String PATH_PROFILE = "/WEB-INF/views/home/profile.jsp";
+	public static final String PATH_BUTTONS = "/WEB-INF/views/home/buttons.jsp";
+	public static final String PATH_SIGNUP = "/WEB-INF/views/home/signup.jsp";
+}
